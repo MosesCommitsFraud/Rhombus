@@ -1,0 +1,14 @@
+{
+      "version": "0.2.0",
+      "configurations": [
+        {
+          "name": "Rhombus",
+          "type": "coreclr",
+          "request": "launch",
+          "program": "${workspaceFolder}/Rhombus.App/bin/Debug/net9.0/Rhombus.App.dll",
+          "cwd": "${workspaceFolder}/Rhombus.App",
+          "preLaunchTask": "build"
+        }
+      ]
+    }
+    

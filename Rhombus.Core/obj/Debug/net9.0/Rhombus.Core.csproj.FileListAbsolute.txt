@@ -1,0 +1,11 @@
+C:\DEV\Rhombus\Rhombus.Core\bin\Debug\net9.0\Rhombus.Core.deps.json
+C:\DEV\Rhombus\Rhombus.Core\bin\Debug\net9.0\Rhombus.Core.dll
+C:\DEV\Rhombus\Rhombus.Core\bin\Debug\net9.0\Rhombus.Core.pdb
+C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.AssemblyInfoInputs.cache
+C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.AssemblyInfo.cs
+C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.csproj.CoreCompileInputs.cache
+C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.dll
+C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\refint\Rhombus.Core.dll
+C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.pdb
+C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\ref\Rhombus.Core.dll
