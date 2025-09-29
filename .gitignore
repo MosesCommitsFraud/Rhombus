@@ -1,0 +1,71 @@
+# ---- Build artifacts ----
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.app
+*.log
+
+# ---- VS Code ----
+.vscode/
+# (Optional: keep shared config if you want)
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ---- User-specific ----
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# ---- Packages ----
+*.nupkg
+*.snupkg
+*.nuspec
+# if you use paket:
+.paket/
+paket-files/
+
+# ---- Cache ----
+*.pidb
+*.svclog
+*.pdb
+*.cache
+*.bak
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# ---- IDEs ----
+.idea/
+*.iml
+
+# ---- Test output ----
+TestResults/
+*.coverage
+*.coveragexml
+
+# ---- Publish output ----
+publish/
+artifacts/
+
+# ---- Dotnet tools ----
+.dotnet/
+tools/
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Settings & local state ----
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# ---- Audio downloads (runtime data) ----
+/Rhombus.App/YTDownloads/
+/Rhombus.App/rhombus_downloads/
