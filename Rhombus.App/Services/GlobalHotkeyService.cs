@@ -2,12 +2,12 @@ using Gma.System.MouseKeyHook;
 
 namespace Rhombus.App.Services;
 
-public class HotkeyService : IDisposable
+public class GlobalHotkeyService : IDisposable
 {
     private readonly IKeyboardMouseEvents _global;
     private readonly Dictionary<string, Action> _bindings = new(StringComparer.OrdinalIgnoreCase);
 
-    public HotkeyService()
+    public GlobalHotkeyService()
     {
         _global = Hook.GlobalEvents();
         _global.KeyDown += OnKeyDown;

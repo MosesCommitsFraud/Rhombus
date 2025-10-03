@@ -5,7 +5,7 @@ namespace Rhombus.App;
 
 public partial class MainWindow : Window
 {
-    public MainWindow(MainViewModel vm)
+    public MainWindow(SoundboardViewModel vm)
     {
         InitializeComponent();
         DataContext = vm;

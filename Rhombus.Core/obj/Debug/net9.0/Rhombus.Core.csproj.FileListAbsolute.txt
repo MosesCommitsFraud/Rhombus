@@ -9,3 +9,4 @@ C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.dll
 C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\refint\Rhombus.Core.dll
 C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.pdb
 C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\ref\Rhombus.Core.dll
+C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.sourcelink.json

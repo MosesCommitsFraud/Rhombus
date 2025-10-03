@@ -20,15 +20,15 @@ public class SettingsService
         DefaultDownloadDirectory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyMusic), "rhombus");
     }
 
-    public void Save(IEnumerable<SoundItemViewModel> vms)
+    public void Save(IEnumerable<SoundViewModel> vms)
     {
         var list = vms.Select(v => v.Model).ToList();
         File.WriteAllText(_file, JsonSerializer.Serialize(list, new JsonSerializerOptions { WriteIndented = true }));
     }
 
-    public List<SoundItem> Load()
+    public List<Sound> Load()
     {
         if (!File.Exists(_file)) return new();
-        return JsonSerializer.Deserialize<List<SoundItem>>(File.ReadAllText(_file)) ?? new();
+        return JsonSerializer.Deserialize<List<Sound>>(File.ReadAllText(_file)) ?? new();
     }
 }

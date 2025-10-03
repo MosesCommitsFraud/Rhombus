@@ -2,7 +2,7 @@ using NAudio.Wave;
 
 namespace Rhombus.App.Services;
 
-public class AudioService : IDisposable
+public class AudioPlaybackService : IDisposable
 {
     private IWavePlayer? _output;
     private AudioFileReader? _reader;

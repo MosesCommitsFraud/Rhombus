@@ -5,12 +5,12 @@ using Rhombus.App.Services;
 
 namespace Rhombus.App.ViewModels;
 
-public class SoundItemViewModel
+public class SoundViewModel
 {
-    public SoundItem Model { get; }
-    private readonly AudioService _audio;
-    private readonly HotkeyService _hotkeys;
-    private readonly Action<SoundItemViewModel> _remove;
+    public Sound Model { get; }
+    private readonly AudioPlaybackService _audio;
+    private readonly GlobalHotkeyService _hotkeys;
+    private readonly Action<SoundViewModel> _remove;
 
     public string DisplayName => Model.DisplayName;
     public string HotkeyLabel => string.IsNullOrWhiteSpace(Model.Hotkey) ? "(no hotkey)" : Model.Hotkey!;
@@ -19,7 +19,7 @@ public class SoundItemViewModel
     public ICommand BindCommand { get; }
     public ICommand RemoveCommand { get; }
 
-    public SoundItemViewModel(SoundItem model, AudioService audio, HotkeyService hotkeys, Action<SoundItemViewModel> remove)
+    public SoundViewModel(Sound model, AudioPlaybackService audio, GlobalHotkeyService hotkeys, Action<SoundViewModel> remove)
     {
         Model = model;
         _audio = audio;

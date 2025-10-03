@@ -58,3 +58,4 @@ C:\DEV\Rhombus\Rhombus.App\obj\Debug\net9.0-windows\refint\Rhombus.App.dll
 C:\DEV\Rhombus\Rhombus.App\obj\Debug\net9.0-windows\Rhombus.App.pdb
 C:\DEV\Rhombus\Rhombus.App\obj\Debug\net9.0-windows\Rhombus.App.genruntimeconfig.cache
 C:\DEV\Rhombus\Rhombus.App\obj\Debug\net9.0-windows\ref\Rhombus.App.dll
+C:\DEV\Rhombus\Rhombus.App\obj\Debug\net9.0-windows\Rhombus.App.sourcelink.json

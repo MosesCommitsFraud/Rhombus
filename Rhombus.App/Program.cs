@@ -23,15 +23,12 @@ public class Program
             .ConfigureServices(services =>
             {
                 // Services
-                services.AddSingleton<AudioService>();
-                services.AddSingleton<HotkeyService>();
+                services.AddSingleton<AudioPlaybackService>();
+                services.AddSingleton<GlobalHotkeyService>();
                 services.AddSingleton<SettingsService>();
 
-                // Download service placeholder – swap with your real implementation later
-                services.AddSingleton<IDownloadService, NoopDownloadService>();
-
                 // ViewModels
-                services.AddSingleton<MainViewModel>();
+                services.AddSingleton<SoundboardViewModel>();
 
                 // Windows
                 services.AddSingleton<MainWindow>();

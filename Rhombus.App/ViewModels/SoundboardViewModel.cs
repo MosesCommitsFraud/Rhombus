@@ -11,14 +11,14 @@ using Rhombus.Core.Download;
 
 namespace Rhombus.App.ViewModels;
 
-public class MainViewModel : INotifyPropertyChanged
+public class SoundboardViewModel : INotifyPropertyChanged
 {
     private readonly IDownloadService _downloader;
-    private readonly AudioService _audio;
-    private readonly HotkeyService _hotkeys;
+    private readonly AudioPlaybackService _audio;
+    private readonly GlobalHotkeyService _hotkeys;
     private readonly SettingsService _settings;
 
-    public ObservableCollection<SoundItemViewModel> Sounds { get; } = new();
+    public ObservableCollection<SoundViewModel> Sounds { get; } = new();
 
     private string _url = "";
     public string Url { get => _url; set { _url = value; OnPropertyChanged(); } }
@@ -32,7 +32,7 @@ public class MainViewModel : INotifyPropertyChanged
     public ICommand AddSoundCommand { get; }
     public ICommand SaveLayoutCommand { get; }
 
-    public MainViewModel(IDownloadService downloader, AudioService audio, HotkeyService hotkeys, SettingsService settings)
+    public SoundboardViewModel(IDownloadService downloader, AudioPlaybackService audio, GlobalHotkeyService hotkeys, SettingsService settings)
     {
         _downloader = downloader;
         _audio = audio;
@@ -64,12 +64,12 @@ public class MainViewModel : INotifyPropertyChanged
             };
             if (ofd.ShowDialog() == DialogResult.OK)
             {
-                var model = new SoundItem
+                var model = new Sound
                 {
                     Path = ofd.FileName,
                     DisplayName = Path.GetFileNameWithoutExtension(ofd.FileName)
                 };
-                var vm = new SoundItemViewModel(model, _audio, _hotkeys, RemoveSound);
+                var vm = new SoundViewModel(model, _audio, _hotkeys, RemoveSound);
                 Sounds.Add(vm);
             }
         });
@@ -83,14 +83,14 @@ public class MainViewModel : INotifyPropertyChanged
         // Load saved
         foreach (var s in _settings.Load())
         {
-            var vm = new SoundItemViewModel(s, _audio, _hotkeys, RemoveSound);
+            var vm = new SoundViewModel(s, _audio, _hotkeys, RemoveSound);
             Sounds.Add(vm);
             if (!string.IsNullOrWhiteSpace(s.Hotkey))
                 _hotkeys.Bind(s.Hotkey!, () => _audio.Play(s.Path));
         }
     }
 
-    private void RemoveSound(SoundItemViewModel vm)
+    private void RemoveSound(SoundViewModel vm)
     {
         if (!string.IsNullOrWhiteSpace(vm.Model.Hotkey))
             _hotkeys.Unbind(vm.Model.Hotkey!);
