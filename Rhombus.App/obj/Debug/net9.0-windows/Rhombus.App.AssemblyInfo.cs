@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rhombus.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ab987e8000c80f3da779517c3e14a346ab653f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a65d03aa1375e02b6a62b0c966fc0dd8dae77ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rhombus.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rhombus.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
