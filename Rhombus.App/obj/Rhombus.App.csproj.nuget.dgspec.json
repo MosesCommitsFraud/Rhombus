@@ -1,33 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DEV\\Rhombus\\Rhombus.App\\Rhombus.App.csproj": {}
+    "F:\\Rhombus\\Rhombus\\Rhombus.App\\Rhombus.App.csproj": {}
   },
   "projects": {
-    "C:\\DEV\\Rhombus\\Rhombus.App\\Rhombus.App.csproj": {
+    "F:\\Rhombus\\Rhombus\\Rhombus.App\\Rhombus.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DEV\\Rhombus\\Rhombus.App\\Rhombus.App.csproj",
+        "projectUniqueName": "F:\\Rhombus\\Rhombus\\Rhombus.App\\Rhombus.App.csproj",
         "projectName": "Rhombus.App",
-        "projectPath": "C:\\DEV\\Rhombus\\Rhombus.App\\Rhombus.App.csproj",
-        "packagesPath": "C:\\Users\\morit\\.nuget\\packages\\",
-        "outputPath": "C:\\DEV\\Rhombus\\Rhombus.App\\obj\\",
+        "projectPath": "F:\\Rhombus\\Rhombus\\Rhombus.App\\Rhombus.App.csproj",
+        "packagesPath": "C:\\Users\\Timo Pfister\\.nuget\\packages\\",
+        "outputPath": "F:\\Rhombus\\Rhombus\\Rhombus.App\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\morit\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Timo Pfister\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0-windows"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0-windows7.0": {
             "targetAlias": "net9.0-windows",
             "projectReferences": {
-              "C:\\DEV\\Rhombus\\Rhombus.Core\\Rhombus.Core.csproj": {
-                "projectPath": "C:\\DEV\\Rhombus\\Rhombus.Core\\Rhombus.Core.csproj"
+              "F:\\Rhombus\\Rhombus\\Rhombus.Core\\Rhombus.Core.csproj": {
+                "projectPath": "F:\\Rhombus\\Rhombus\\Rhombus.Core\\Rhombus.Core.csproj"
               }
             }
           }
@@ -92,22 +99,29 @@
         }
       }
     },
-    "C:\\DEV\\Rhombus\\Rhombus.Core\\Rhombus.Core.csproj": {
+    "F:\\Rhombus\\Rhombus\\Rhombus.Core\\Rhombus.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DEV\\Rhombus\\Rhombus.Core\\Rhombus.Core.csproj",
+        "projectUniqueName": "F:\\Rhombus\\Rhombus\\Rhombus.Core\\Rhombus.Core.csproj",
         "projectName": "Rhombus.Core",
-        "projectPath": "C:\\DEV\\Rhombus\\Rhombus.Core\\Rhombus.Core.csproj",
-        "packagesPath": "C:\\Users\\morit\\.nuget\\packages\\",
-        "outputPath": "C:\\DEV\\Rhombus\\Rhombus.Core\\obj\\",
+        "projectPath": "F:\\Rhombus\\Rhombus\\Rhombus.Core\\Rhombus.Core.csproj",
+        "packagesPath": "C:\\Users\\Timo Pfister\\.nuget\\packages\\",
+        "outputPath": "F:\\Rhombus\\Rhombus\\Rhombus.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\morit\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Timo Pfister\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

@@ -10,3 +10,15 @@ C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\refint\Rhombus.Core.dll
 C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.pdb
 C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\ref\Rhombus.Core.dll
 C:\DEV\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.sourcelink.json
+F:\Rhombus\Rhombus\Rhombus.Core\bin\Debug\net9.0\Rhombus.Core.deps.json
+F:\Rhombus\Rhombus\Rhombus.Core\bin\Debug\net9.0\Rhombus.Core.dll
+F:\Rhombus\Rhombus\Rhombus.Core\bin\Debug\net9.0\Rhombus.Core.pdb
+F:\Rhombus\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Rhombus\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.AssemblyInfoInputs.cache
+F:\Rhombus\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.AssemblyInfo.cs
+F:\Rhombus\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.csproj.CoreCompileInputs.cache
+F:\Rhombus\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.sourcelink.json
+F:\Rhombus\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.dll
+F:\Rhombus\Rhombus\Rhombus.Core\obj\Debug\net9.0\refint\Rhombus.Core.dll
+F:\Rhombus\Rhombus\Rhombus.Core\obj\Debug\net9.0\Rhombus.Core.pdb
+F:\Rhombus\Rhombus\Rhombus.Core\obj\Debug\net9.0\ref\Rhombus.Core.dll

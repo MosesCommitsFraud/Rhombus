@@ -4,7 +4,7 @@
 winexe
 C#
 .cs
-C:\DEV\Rhombus\Rhombus.App\obj\Debug\net9.0-windows\
+F:\Rhombus\Rhombus\Rhombus.App\obj\Debug\net9.0-windows\
 Rhombus.App
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 2-1094938431
 
 11-378051989
-245-821978225
+245-657832073
 App.xaml;MainWindow.xaml;
 
 False

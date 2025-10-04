@@ -9,6 +9,12 @@
       <RowDefinition Height="Auto"/>
     </Grid.RowDefinitions>
 
+    <!-- Left panel -->
+    <StackPanel Orientation="Vertical">
+      <TextBlock Text="rhombus" FontSize="24" FontWeight="Bold"/>
+      <TextBlock Text="A tool for downloading and playing audio and video files." FontSize="12" Opacity="0.7"/>
+    </StackPanel>
+
     <!-- Downloader -->
     <StackPanel Orientation="Horizontal">
       <TextBox Width="520" Text="{Binding Url, UpdateSourceTrigger=PropertyChanged}" />
