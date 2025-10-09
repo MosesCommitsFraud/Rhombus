@@ -23,7 +23,7 @@ public class Program
             .ConfigureServices(services =>
             {
                 // Services
-                services.AddSingleton<IDownloadService>(sp => new StubDownloadService());
+                services.AddSingleton<DownloadService>();
                 services.AddSingleton<AudioPlaybackService>();
                 services.AddSingleton<GlobalHotkeyService>();
                 services.AddSingleton<SettingsService>();
@@ -39,15 +39,5 @@ public class Program
         var app = new App(host);
         app.InitializeComponent();
         app.Run(host.Services.GetRequiredService<MainWindow>());
-    }
-}
-
-// Temporary stub until real implementation is added
-internal class StubDownloadService : IDownloadService
-{
-    public Task<DownloadResult> DownloadAsync(DownloadRequest request, IProgress<string>? log = null, CancellationToken ct = default)
-    {
-        log?.Report("Download service not yet implemented.");
-        return Task.FromResult(new DownloadResult(false, null, "Download service not yet implemented."));
     }
 }

@@ -13,7 +13,7 @@ namespace Rhombus.App.ViewModels;
 
 public class SoundboardViewModel : INotifyPropertyChanged
 {
-    private readonly IDownloadService _downloader;
+    private readonly DownloadService _downloader;
     private readonly AudioPlaybackService _audio;
     private readonly GlobalHotkeyService _hotkeys;
     private readonly SettingsService _settings;
@@ -32,7 +32,7 @@ public class SoundboardViewModel : INotifyPropertyChanged
     public ICommand AddSoundCommand { get; }
     public ICommand SaveLayoutCommand { get; }
 
-    public SoundboardViewModel(IDownloadService downloader, AudioPlaybackService audio, GlobalHotkeyService hotkeys, SettingsService settings)
+    public SoundboardViewModel(DownloadService downloader, AudioPlaybackService audio, GlobalHotkeyService hotkeys, SettingsService settings)
     {
         _downloader = downloader;
         _audio = audio;
@@ -47,10 +47,11 @@ public class SoundboardViewModel : INotifyPropertyChanged
             Directory.CreateDirectory(outDir);
 
             var kind = SelectedKind.Equals("Video", StringComparison.OrdinalIgnoreCase) ? DownloadKind.Video : DownloadKind.Audio;
+            var format = kind == DownloadKind.Audio ? "mp3" : null;
             Append($"Downloading {kind}: {Url}");
 
             var progress = new Progress<string>(Append);
-            var res = await _downloader.DownloadAsync(new DownloadRequest(Url, outDir, kind), progress);
+            var res = await _downloader.DownloadAsync(new DownloadRequest(Url, outDir, kind, format), progress);
 
             Append(res.Success ? $"✅ Done: {res.OutputPath}" : $"❌ Error: {res.Error}");
         });
