@@ -65,3 +65,5 @@ F:\Rhombus\Rhombus\Rhombus.App\obj\Debug\net9.0-windows\refint\Rhombus.App.dll
 F:\Rhombus\Rhombus\Rhombus.App\obj\Debug\net9.0-windows\Rhombus.App.pdb
 F:\Rhombus\Rhombus\Rhombus.App\obj\Debug\net9.0-windows\Rhombus.App.genruntimeconfig.cache
 F:\Rhombus\Rhombus\Rhombus.App\obj\Debug\net9.0-windows\ref\Rhombus.App.dll
+F:\Rhombus\Rhombus\Rhombus.App\obj\Debug\net9.0-windows\resources\ScrollBar.baml
+F:\Rhombus\Rhombus\Rhombus.App\obj\Debug\net9.0-windows\resources\ScrollBarStyles.baml

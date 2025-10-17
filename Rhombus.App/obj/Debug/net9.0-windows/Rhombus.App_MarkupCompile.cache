@@ -1,20 +1,20 @@
 ﻿Rhombus.App
-
+1.0.0.0
 
 winexe
 C#
 .cs
-F:\Rhombus\Rhombus\Rhombus.App\obj\Debug\net9.0-windows\
+f:\Rhombus\Rhombus\Rhombus.App\obj\Debug\net9.0-windows\
 Rhombus.App
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 
-51717981784
+7-733091469
 
-141881081867
-245-657832073
-App.xaml;DownloaderPage.xaml;MainWindow.xaml;OptionsPage.xaml;SoundboardPage.xaml;
+16-1615334939
+245-2124631657
+App.xaml;DownloaderPage.xaml;MainWindow.xaml;OptionsPage.xaml;resources\ScrollBar.xaml;resources\ScrollBarStyles.xaml;SoundboardPage.xaml;
 
-False
+True
 

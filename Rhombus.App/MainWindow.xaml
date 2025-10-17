@@ -7,14 +7,6 @@
         Height="580" Width="900"
         Title="Rhombus">
 
-    <!--<Window.Chrome>
-        <WindowChrome
-            ResizeBorderThickness="5"
-            CaptionHeight="30"
-            GlassFrameThickness="0"
-            UseAeroCaptionButtons="False"/>
-    </Window.Chrome>-->
-
     <Grid Margin="0">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
